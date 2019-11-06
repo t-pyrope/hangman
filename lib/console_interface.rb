@@ -11,7 +11,7 @@ class ConsoleInterface
     puts <<~END
       \nThe word: #{word_to_show}
       #{figure}
-      Strikes: (#{@game.errors_made}): #{errors_to_show}
+      Strikes (#{@game.errors_made}): #{errors_to_show}
       You can make #{@game.errors_allowed} more strikes
     END
 
