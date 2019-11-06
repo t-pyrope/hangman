@@ -9,11 +9,10 @@ class ConsoleInterface
 
   def print_out
     puts <<~END
-      The word: #{word_to_show}
+      \nThe word: #{word_to_show}
       #{figure}
       Strikes: (#{@game.errors_made}): #{errors_to_show}
-      You can make #{@game.errors_allowed} strikes more
-
+      You can make #{@game.errors_allowed} more strikes
     END
 
     if @game.won?
@@ -44,7 +43,7 @@ class ConsoleInterface
   end
 
   def get_input
-    print "Enter the next letter:"
+    print "Enter the next letter: "
     letter = gets[0].upcase
     return letter
   end
