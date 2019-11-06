@@ -7,7 +7,7 @@ It is made during my ruby-courses on [goodprogrammer.ru](https://goodprogrammer.
 
 Open the `main.rb` file
 
-Try to guess a word
+Try to guess the word
 
 You can make 6 strikes before you lose
 
