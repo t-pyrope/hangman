@@ -47,5 +47,4 @@ class ConsoleInterface
     letter = gets[0].upcase
     return letter
   end
-
 end
