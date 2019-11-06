@@ -25,7 +25,7 @@ The word: __ E __ __ __ __ __ __
         __|________
         |         |
 
-Strikes: (2): Q, F
+Strikes (2): Q, F
 You can make 5 more strikes
 Enter the next letter:
 ```
