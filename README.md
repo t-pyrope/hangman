@@ -11,7 +11,24 @@ Try to guess a word
 
 You can make 6 strikes before you lose
 
-![screenshot of sample](https://sun9-9.userapi.com/c855420/v855420636/14ae5f/bgYWPxk0aAk.jpg)
+```console
+The word: __ E __ __ __ __ __ __
+          _______
+          |/
+          |     ( )
+          |      |
+          |
+          |
+          |
+          |
+          |
+        __|________
+        |         |
+
+Strikes: (2): Q, F
+You can make 5 more strikes
+Enter the next letter:
+```
 ***
 ### How to add new words
 
