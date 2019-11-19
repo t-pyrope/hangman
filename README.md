@@ -7,7 +7,7 @@ It is made during my ruby-courses on [goodprogrammer.ru](https://goodprogrammer.
 
 To start the game, execute following command:
 
-`$ ruby magic_ball.rb`
+`$ ruby main.rb`
 
 Try to guess the word
 
