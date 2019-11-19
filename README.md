@@ -6,9 +6,9 @@ It is made during my ruby-courses on [goodprogrammer.ru](https://goodprogrammer.
 ### How to play
 
 To start the game, execute following command:
-
-`$ ruby main.rb`
-
+```
+$ ruby main.rb
+```
 Try to guess the word
 
 You can make 6 strikes before you lose
