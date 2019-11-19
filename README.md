@@ -5,7 +5,9 @@ It is made during my ruby-courses on [goodprogrammer.ru](https://goodprogrammer.
 ***
 ### How to play
 
-Open the `main.rb` file
+To start the game, execute following command:
+
+`$ ruby magic_ball.rb`
 
 Try to guess the word
 
