@@ -5,9 +5,11 @@ It is made during my ruby-courses on [goodprogrammer.ru](https://goodprogrammer.
 ***
 ### How to play
 
-To start the game, execute following command:
+To start the game, execute following commands:
 ```
-$ ruby main.rb
+$ git clone git@github.com:t-pyrope/hangman.git
+$ bundle install
+$ bundle exec ruby main.rb
 ```
 Try to guess the word
 
