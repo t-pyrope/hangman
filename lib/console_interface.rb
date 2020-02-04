@@ -8,15 +8,15 @@ class ConsoleInterface
   end
 
   def print_out
-    puts <<~END
-      \nThe word: #{word_to_show}
-      #{figure}
-      Strikes (#{@game.errors_made}): #{errors_to_show}
-      You can make #{@game.errors_allowed} more strikes
-    END
+    print "\e[2J\e[f"
+    puts "The word: #{word_to_show}".colorize(:blue)
+    puts figure.colorize(:magenta)
+    puts "Strikes (#{@game.errors_made}): #{errors_to_show}".colorize(:red)
+    puts "You can make #{@game.errors_allowed} more strikes"
 
+    con = "\xF0\x9F\x8E\x89 \xF0\x9F\x8E\x89 \xF0\x9F\x8E\x89".encode("UTF-8")
     if @game.won?
-      puts "Congratulations, you won!"
+      puts "#{con} Congratulations, you won! #{con}"
     elsif @game.lost?
       puts "You lose. The word was: #{@game.word}"
     end

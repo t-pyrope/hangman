@@ -1,4 +1,6 @@
-require_relative "lib/consoleinterface"
+require "colorize"
+
+require_relative "lib/console_interface"
 require_relative "lib/game"
 
 puts "Hi there!"
